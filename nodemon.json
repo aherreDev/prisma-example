@@ -1,0 +1,6 @@
+{
+  "watch": ["app.ts", "routes", "prisma/schema.prisma", "controllers", "nodemon.js"],
+  "ext": "ts,json,prisma",
+  "ignore": ["src/**/*.spec.ts"],
+  "exec": "ts-node --type-check ./bin/www"
+}
