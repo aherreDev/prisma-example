@@ -4,6 +4,9 @@ Everything that you need to get started
 # Install dependencies
 yarn
 
+# Make sure that DB is setup (Optional)
+npx prisma init --datasource-provider sqlite
+
 # Run the Project
 yarn start
 
